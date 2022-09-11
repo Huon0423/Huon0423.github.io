@@ -5,6 +5,6 @@ const chosenImage = images[Math.floor(Math.random()*images.length)];
 
 const body = document.body;
 
-const url = "C:/workspace/VisualStudio_Workspace/NomadCoders/MakingChromeApp/img" + `/${chosenImage}`;
+const url = "/img" + `/${chosenImage}`;
 
 body.style.backgroundImage = `url(${url})`; //test
